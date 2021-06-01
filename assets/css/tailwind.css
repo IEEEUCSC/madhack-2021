@@ -2132,6 +2132,11 @@ body {
     padding-right: 0px;
   }
 
+  .md\:py-2{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
   .md\:py-4{
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -2265,6 +2270,11 @@ body {
 
   .lg\:p-0{
     padding: 0px;
+  }
+
+  .lg\:py-2{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .lg\:py-4{

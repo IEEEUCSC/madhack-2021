@@ -1,8 +1,6 @@
 document.onreadystatechange = function () {
 	if (screen.width > 720) {
 		$(document).on("click mousemove", "body", function (e) {
-			let footerwaves = document.getElementById("waves");
-			footerwaves.classList.remove("hidden");
 			var x = e.clientX;
 			var y = e.clientY;
 			var newposX = x / -15;
@@ -14,8 +12,6 @@ document.onreadystatechange = function () {
 		let phone = document.getElementById("phone");
 		let flutter = document.getElementById("flutter");
 		let react = document.getElementById("react");
-		let footerwaves = document.getElementById("waves");
-		footerwaves.classList.add("hidden");
 		android.classList.remove("top-96", "left-16", "animate-pulse");
 		phone.classList.remove("left-96", "animate-pulse");
 		phone.classList.add("right-10");

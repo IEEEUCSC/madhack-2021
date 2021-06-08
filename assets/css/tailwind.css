@@ -758,7 +758,7 @@ video {
 }
 
 .flex-1{
-  flex: 1 1 0%;
+  flex: 1 1 0;
 }
 
 .flex-none{
@@ -773,12 +773,12 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-.font-landing{
-  font-family: CoreCircus;
+.font-landing {
+  font-family: CoreCircus, sans-serif;
 }
 
-.font-default{
-  font-family: Roboto;
+.font-default {
+  font-family: Roboto, sans-serif;
 }
 
 .font-extralight{
@@ -882,9 +882,9 @@ video {
   margin: 2rem;
 }
 
-.my-0{
-  margin-top: 0px;
-  margin-bottom: 0px;
+.my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .my-1{
@@ -922,8 +922,8 @@ video {
   margin-right: auto;
 }
 
-.mt-0{
-  margin-top: 0px;
+.mt-0 {
+  margin-top: 0;
 }
 
 .mt-1{
@@ -1030,8 +1030,8 @@ video {
   margin-top: -2.5rem;
 }
 
-.max-h-0{
-  max-height: 0px;
+.max-h-0 {
+  max-height: 0;
 }
 
 .max-w-md{
@@ -1114,8 +1114,8 @@ video {
 }
 
 .py-0 {
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .py-1 {
@@ -1287,12 +1287,12 @@ video {
   position: relative;
 }
 
-.top-0{
-  top: 0px;
+.top-0 {
+  top: 0;
 }
 
-.right-0{
-  right: 0px;
+.right-0 {
+  right: 0;
 }
 
 .top-6{
@@ -1461,8 +1461,8 @@ video {
   text-decoration: none;
 }
 
-.tracking-normal{
-  letter-spacing: 0em;
+.tracking-normal {
+  letter-spacing: 0;
 }
 
 .tracking-wider{
@@ -1930,7 +1930,6 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -1960,7 +1959,6 @@ body {
 }
 
 .card {
-  transition: all 0.4s ease-out;
   background: #fff;
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);
@@ -2044,13 +2042,13 @@ body {
     margin-top: -1.5rem;
   }
 
-  .sm\:px-0{
-    padding-left: 0px;
-    padding-right: 0px;
+  .sm\:px-0 {
+    padding-left: 0;
+    padding-right: 0;
   }
 
-  .sm\:pt-0{
-    padding-top: 0px;
+  .sm\:pt-0 {
+    padding-top: 0;
   }
 
   .sm\:pt-2{
@@ -2165,8 +2163,8 @@ body {
   }
 
   .md\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .md\:py-3 {
@@ -2292,21 +2290,21 @@ body {
     line-height: 1;
   }
 
-  .lg\:mx-0{
-    margin-left: 0px;
-    margin-right: 0px;
+  .lg\:mx-0 {
+    margin-left: 0;
+    margin-right: 0;
   }
 
-  .lg\:mt-0{
-    margin-top: 0px;
+  .lg\:mt-0 {
+    margin-top: 0;
   }
 
   .lg\:mb-20{
     margin-bottom: 5rem;
   }
 
-  .lg\:p-0{
-    padding: 0px;
+  .lg\:p-0 {
+    padding: 0;
   }
 
   .lg\:py-2 {
@@ -2384,8 +2382,9 @@ body {
   }
 
   .xl\:mt-0 {
-    margin-top: 0px;
+    margin-top: 0;
   }
+
 
   .xl\:px-4 {
     padding-left: 1rem;

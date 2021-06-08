@@ -12,7 +12,7 @@ document.addEventListener("scroll", function () {
 	if (scrollpos > 10) {
 		header.classList.add("bg-white");
 		navaction.classList.remove("bg-white");
-		navaction.classList.add("gradient");
+		navaction.classList.add("bg-black");
 		navaction.classList.remove("text-gray-800");
 		navaction.classList.add("text-white");
 		menu.classList.remove("text-white");
@@ -31,7 +31,7 @@ document.addEventListener("scroll", function () {
 		navcontent.classList.add("bg-white");
 	} else {
 		header.classList.remove("bg-white");
-		navaction.classList.remove("gradient");
+		navaction.classList.remove("bg-black");
 		navaction.classList.add("bg-white");
 		navaction.classList.remove("text-gray-300");
 		navaction.classList.add("text-gray-800");

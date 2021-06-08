@@ -13,7 +13,7 @@ document.onreadystatechange = function () {
 		let flutter = document.getElementById("flutter");
 		let react = document.getElementById("react");
 		let footerAnimation = document.getElementById("waves");
-		footerAnimation.remove();
+		// footerAnimation.remove();
 		android.classList.remove("top-96", "left-16", "animate-pulse");
 		phone.classList.remove("left-96", "animate-pulse");
 		phone.classList.add("right-10");

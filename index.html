@@ -14,7 +14,7 @@
     <title>MadHack</title>
     <link href="assets/css/styles.css" rel="stylesheet"/>
     <link href="assets/images/landing/favicon.ico" rel="icon" sizes="128x128" type="image/png">
-    <link href="assets/css/tailwind.css" rel="stylesheet"/>
+<!--    <link href="assets/css/tailwind.css" rel="stylesheet"/>-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script defer src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js"></script>
     <script crossorigin="anonymous" src="https://kit.fontawesome.com/1c113cefd7.js"></script>
@@ -162,7 +162,7 @@
 </div>
 <!--Nav-->
 <nav class="fixed w-full z-50 top-0 text-white transition duration-500 ease-in-out" id="header">
-    <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-2 py-3 px-3 md:py-3 lg:py-2 lg:mt-1">
+    <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-3 px-3 md:py-3 lg:py-2 lg:mt-1">
         <div class="pl-4 flex items-center">
             <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
                href="#home"> <img alt="Madhack Logo" class="w-32 h-10" src="assets/images/landing/madhack-logo.webp"/>
@@ -216,11 +216,11 @@
                 <h1
                         class="md:text-3xl sm:text-xl text-center mb-3 font-extralight uppercase tracking-widest justify-center">
                             <span>
-                                <span class="flex items-center justify-center pt-5 sm:pt-0 pl-2">
+                                <div class="flex items-center justify-center pt-5 sm:pt-0 pl-2">
                                     Registration ends in&nbsp;
                                     <img alt="" class="w-10 h-10 animate-bounce"
                                          src="assets/images/landing/rocket.svg"/>
-                                </span>
+                                </div>
                             </span>
                 </h1>
                 <div class="md:text-6xl text-center flex lg:w-full md:w-full items-center justify-center">
@@ -261,22 +261,22 @@
         <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800 uppercase">
             What is Madhack?
             <span>
-                        <lord-icon class="w-20 h-20 sm:w-24 md:w-24 md:h-24 lg:w-24 lg:h-24 mb-5"
-                                   colors="primary:#121331,secondary:#08a88a"
-                                   src="https://cdn.lordicon.com//rwotyanb.json"
-                                   trigger="loop">
-                        </lord-icon>
-                    </span>
+                <lord-icon class="w-20 h-20 sm:w-24 md:w-24 md:h-24 lg:w-24 lg:h-24 mb-5"
+                           colors="primary:#121331,secondary:#08a88a"
+                           src="https://cdn.lordicon.com//rwotyanb.json"
+                           trigger="loop">
+                </lord-icon>
+            </span>
         </h1>
         <div class="w-full mb-4">
-            <div class="h-1 mx-auto bg-white w-64 opacity-25 my-0 py-0 rounded-t"></div>
+            <div class="h-1 mx-auto bg-black w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
-        <div class="container text-white px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+        <div class="container text-white px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center md:my-3">
             <!--Left Col-->
-            <div class="flex flex-col w-full md:w-2/3 justify-center items-start text-center md:text-left">
+            <div class="flex flex-col w-full md:w-2/3 justify-center items-start text-center md:text-left p-2">
                 <div
-                        class="flex-1 text-white rounded-lg bg-blue-500 overflow-hidden shadow-2xl px-10 py-8 font-extralight">
-                    <p class="leading-normal text-2xl mb-8">
+                        class="flex-1 text-white rounded-lg bg-blue-500 shadow-2xl px-8 md:px-10 py-8 font-extralight m-4">
+                    <p class="leading-normal text-xl md:text-2xl mb-1 md:mb-2 md:leading-relaxed">
                         Introducing Sri Lanka’s first Mobile Application Development Hackathon, the IEEE Student
                         Branch of UCSC proudly presents 'MadHack 2021', an inter-university hackathon followed
                         by a series of workshops. MadHack aims to let the participants put their creativity
@@ -468,7 +468,7 @@
     </div>
 </section>
 <!-- Prizes -->
-<section class="bg-gray-100 py-8" id="prizes">
+<section class="bg-gray-100 py-8 pb-12" id="prizes">
     <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
         <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800 uppercase">
                     <span>Prizes <lord-icon class="w-20 h-20 sm:w-24 md:w-24 md:h-24 lg:w-24 lg:h-24 mb-5"
@@ -481,15 +481,15 @@
             <div class="h-1 mx-auto bg-black w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
         <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
-
             <div
-                    class="card bronze flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded lg:rounded-l-lg mt-4 bg-white text-gray-600 transform transition hover:scale-105 duration-300 ease-in-out">
+                    class="card bronze flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded lg:rounded-l-lg mt-4
+                    bg-white text-gray-600 transform transition hover:scale-105 duration-300 ease-in-out">
                 <div class="overlay z-0"></div>
-                <div class="flex-1 rounded overflow-hidden shadow z-10">
+                <div class="flex-1 rounded shadow z-10">
                     <div class="p-8 text-3xl font-bold text-center border-b-4">Third Place</div>
-                    <ul class="w-full">
+                    <div class="w-full px-4">
                         <img class="pt-10" src="assets/images/prizes/bronze.webp"/>
-                    </ul>
+                    </div>
                     <div class="flex-none overflow-hidden px-6 py-10 pt-5 font-bold text-center text-lg">
                         A cash prize of
                         <div class="w-full text-5xl font-bold text-center">
@@ -498,16 +498,17 @@
                         + swag + certificates + stickers
                     </div>
                 </div>
-
             </div>
             <div
-                    class="card gold flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10 transform transition hover:scale-105 duration-300 ease-in-out">
+                    class="card gold flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-white mt-4 sm:-mt-6
+                    shadow-lg z-10 transform transition hover:scale-105 duration-300 ease-in-out">
                 <div class="overlay z-0"></div>
-                <div class="flex-1 rounded overflow-hidden shadow z-10">
-                    <div class="h-1 w-full bg-black my-0 py-0 rounded-t"></div>
-                    <div class="p-8 text-3xl font-bold text-center border-b-4">First Place</div>
-                    <ul class="w-full">
-                        <img class="p-20 py-10" src="assets/images/prizes/gold.webp"/>
+                <div class="flex-1 rounded shadow z-10">
+                    <div class="h-1 w-full bg-black my-0 py-0 rounded-t">
+                        <div class="p-8 text-3xl font-bold text-center border-b-4">First Place</div>
+                        <div class="w-full px-4">
+                            <img class="p-20 py-10" src="assets/images/prizes/gold.webp"/>
+                        </div>
                         <div class="flex-none overflow-hidden px-6 pb-10 font-bold text-center text-lg">
                             A cash prize of
                             <div class="w-full text-6xl font-bold text-center">
@@ -515,25 +516,27 @@
                             </div>
                             + swag + certificates + stickers
                         </div>
-                    </ul>
+
+                    </div>
                 </div>
 
             </div>
             <div
-                    class="card silver flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded lg:rounded-l-lg mt-4 bg-white text-gray-600 transform transition hover:scale-105 duration-300 ease-in-out">
+                    class="card silver flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded lg:rounded-l-lg mt-4
+                    bg-white text-gray-600 transform transition hover:scale-105 duration-300 ease-in-out">
                 <div class="overlay z-0"></div>
-                <div class="flex-1 rounded overflow-hidden shadow z-10">
+                <div class="flex-1 rounded shadow z-10">
                     <div class="p-8 text-3xl font-bold text-center border-b-4">Second Place</div>
-                    <ul class="w-full p-10">
-                        <img class="pb-5" src="assets/images/prizes/silver.webp"/>
-                        <div class="flex-none overflow-hidden px-6 pb-10 font-bold text-center text-lg mt-5">
-                            A cash prize of
-                            <div class="w-full text-5xl font-bold text-center">
-                                Rs. 30,000
-                            </div>
-                            + swag + certificates + stickers
+                    <div class="w-full px-4">
+                        <img class="p-8 pb-5" src="assets/images/prizes/silver.webp"/>
+                    </div>
+                    <div class="flex-none overflow-hidden px-6 pb-10 font-bold text-center text-lg mt-5">
+                        A cash prize of
+                        <div class="w-full text-5xl font-bold text-center">
+                            Rs. 30,000
                         </div>
-                    </ul>
+                        + swag + certificates + stickers
+                    </div>
                 </div>
             </div>
         </div>
@@ -561,6 +564,20 @@
                 <!--Card 1-->
                 <div class="rounded overflow-hidden px-4 pt-2 pb-4" data-aos="flip-left"
                      data-aos-duration="1000" data-aos-easing="ease-out-cubic">
+                    <img alt="IFS logo"
+                         class="w-full object-cover object-center rounded-lg shadow-lg p-8 border-2"
+                         src="./assets/images/sponsors/IFS-logo.png">
+                    <div class="relative mx-8 -mt-10">
+                        <div class="bg-gray-400 p-3 rounded-lg shadow-md border-2 text-white">
+                            <h3 class="mt-1 text-lg font-semibold text-center">IFS</h3>
+                            <h4 class="mt-0 text-lg text-center">Platinum Sponsor</h4>
+                        </div>
+                    </div>
+
+                </div>
+                <!--Card 2-->
+                <div class="rounded overflow-hidden px-4 pt-2 pb-4" data-aos="flip-left"
+                     data-aos-duration="1000" data-aos-easing="ease-out-cubic">
                     <img alt="Zone 24x7 logo"
                          class="w-full object-cover object-center rounded-lg shadow-lg p-8 border-2"
                          src="./assets/images/sponsors/Zone24x7-logo.png">
@@ -572,7 +589,7 @@
                     </div>
 
                 </div>
-                <!--Card 2-->
+                <!--Card 3-->
                 <div class="rounded overflow-hidden px-4 pt-2 pb-4" data-aos="flip-left"
                      data-aos-duration="1000" data-aos-easing="ease-out-cubic">
                     <img alt="LSEG Technology logo"
@@ -586,7 +603,7 @@
                     </div>
 
                 </div>
-                <!--Card 3-->
+                <!--Card 4-->
                 <div class="tile rounded overflow-hidden px-4 pt-2 pb-4" data-aos="flip-left"
                      data-aos-duration="1000" data-aos-easing="ease-out-cubic">
                     <img alt="CIMA logo"
@@ -600,7 +617,7 @@
                     </div>
 
                 </div>
-                <!--Card 4-->
+                <!--Card 5-->
                 <div class="tile rounded overflow-hidden px-4 pt-2 pb-4" data-aos="flip-left"
                      data-aos-duration="1000" data-aos-easing="ease-out-cubic">
                     <img alt="99x logo"
@@ -613,7 +630,7 @@
                     </div>
 
                 </div>
-                <!--Card 5-->
+                <!--Card 6-->
                 <div class="rounded overflow-hidden px-4 pt-2 pb-4" data-aos="flip-left"
                      data-aos-duration="1000" data-aos-easing="ease-out-cubic">
                     <img alt="CIC Industrial Solutions logo"
@@ -626,7 +643,7 @@
                     </div>
 
                 </div>
-                <!--Card 6-->
+                <!--Card 7-->
                 <div class="rounded overflow-hidden px-4 pt-2 pb-4" data-aos="flip-left"
                      data-aos-duration="1000" data-aos-easing="ease-out-cubic">
                     <img alt="SIM Centric Technologies logo"
@@ -639,7 +656,7 @@
                     </div>
 
                 </div>
-                <!--Card 7-->
+                <!--Card 8-->
                 <div class="rounded overflow-hidden px-4 pt-2 pb-4" data-aos="flip-left"
                      data-aos-duration="1000" data-aos-easing="ease-out-cubic">
                     <img alt="Wisdom Business Academy logo"
@@ -651,7 +668,7 @@
                         </div>
                     </div>
                 </div>
-                <!--Card 8-->
+                <!--Card 9-->
                 <div class="rounded overflow-hidden px-4 pt-2 pb-4" data-aos="flip-left"
                      data-aos-duration="1000" data-aos-easing="ease-out-cubic">
                     <img alt="Creative Software logo"

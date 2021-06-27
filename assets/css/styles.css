@@ -1532,6 +1532,14 @@ video {
   width: 83.333333%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -2200,6 +2208,18 @@ body {
 
   .md\:pt-4 {
     padding-top: 1rem;
+  }
+
+  .md\:pt-6 {
+    padding-top: 1rem;
+  }
+
+  .md\:pt-12 {
+    padding-top: 3rem;
+  }
+
+  .md\:pb-12 {
+    padding-bottom: 3rem;
   }
 
   .md\:text-left {

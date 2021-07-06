@@ -1222,23 +1222,27 @@ video {
   padding-top: 0.5rem;
 }
 
-.pb-2{
+.pb-2 {
   padding-bottom: 0.5rem;
 }
 
-.pl-2{
+.pl-2 {
   padding-left: 0.5rem;
 }
 
-.pt-4{
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.pt-4 {
   padding-top: 1rem;
 }
 
-.pr-4{
+.pr-4 {
   padding-right: 1rem;
 }
 
-.pb-4{
+.pb-4 {
   padding-bottom: 1rem;
 }
 
@@ -1558,27 +1562,35 @@ video {
   z-index: 10;
 }
 
-.z-20{
+.z-20 {
   z-index: 20;
 }
 
-.z-50{
+.z-50 {
   z-index: 50;
 }
 
-.gap-10{
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-10 {
   gap: 2.5rem;
 }
 
-.gap-y-8{
+.gap-y-6 {
+  row-gap: 1.5rem;
+}
+
+.gap-y-8 {
   row-gap: 2rem;
 }
 
-.grid-cols-1{
+.grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.grid-cols-2{
+.grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 

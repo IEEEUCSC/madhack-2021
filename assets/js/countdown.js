@@ -6,7 +6,7 @@ function countdown() {
 		days: "00",
 		distance: 0,
 		countdown: null,
-		launchTime: new Date("July 13, 2021 11:59:00").getTime(),
+		launchTime: new Date("July 24, 2021 11:59:00").getTime(),
 		now: new Date().getTime(),
 		start: function () {
 			this.countdown = setInterval(() => {

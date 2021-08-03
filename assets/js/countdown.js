@@ -6,13 +6,13 @@ function countdown() {
 		days: "00",
 		distance: 0,
 		countdown: null,
-		launchTime: new Date("July 24, 2021 23:59:00").getTime(),
+		endTime: new Date("August 15, 2021 21:00:00").getTime(),
 		now: new Date().getTime(),
 		start: function () {
 			this.countdown = setInterval(() => {
 				// Calculate time
 				this.now = new Date().getTime();
-				this.distance = this.launchTime - this.now;
+				this.distance = this.endTime - this.now;
 				// Set Times
 				this.days = this.padNum(Math.floor(this.distance / (1000 * 60 * 60 * 24)));
 				this.hours = this.padNum(Math.floor((this.distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
